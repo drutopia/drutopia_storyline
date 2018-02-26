@@ -1,0 +1,34 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.storyline_item.field_text
+    - field.field.paragraph.storyline_item.field_storyline_heading
+    - paragraphs.paragraphs_type.storyline_item
+  module:
+    - text
+id: paragraph.storyline_item.default
+targetEntityType: paragraph
+bundle: storyline_item
+mode: default
+content:
+  field_text:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_storyline_heading:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true
