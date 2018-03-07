@@ -84,11 +84,6 @@
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
-    "parent_id": [
-        {
-            "value": "34"
-        }
-    ],
     "parent_type": [
         {
             "value": "node"
