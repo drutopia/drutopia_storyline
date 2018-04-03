@@ -8,6 +8,6 @@
   "require": {
     "drupal/drutopia_core": "^1.0-alpha1",
     "drupal/drutopia_page": "^1.0-alpha1",
-    "drupal/field_group": "^3.0-dev"
+    "drupal/field_group": "^3.0-beta1"
   }
 }
